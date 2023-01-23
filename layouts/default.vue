@@ -3,11 +3,25 @@
       <a-layout-sider width="280" style="background: #2C55B5">
         <div>
           <h3>
-            My Organization
+            <NuxtLink to="/">
+              <span>IAM</span>
+            </NuxtLink>
           </h3>
           <a-menu mode="inline">
             <a-menu-item key="1">
-              <span>People</span>
+              <NuxtLink to="/about">
+                <span>About</span>
+              </NuxtLink>
+            </a-menu-item>
+            <a-menu-item key="2">
+              <NuxtLink to="/counter">
+                <span>Counter</span>
+              </NuxtLink>
+            </a-menu-item>
+            <a-menu-item key="3">
+              <NuxtLink to="/hello">
+                <span>Hello</span>
+              </NuxtLink>
             </a-menu-item>
           </a-menu>
         </div>

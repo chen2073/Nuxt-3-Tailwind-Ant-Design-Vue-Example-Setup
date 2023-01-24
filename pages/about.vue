@@ -14,7 +14,7 @@ const counter = useCounter()
   </div>
   <div>
     <NuxtLink to="/counter">
-      Count: 
+      Count:
     </NuxtLink>
     {{ counter }}
   </div>

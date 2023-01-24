@@ -12,7 +12,7 @@ const counter = useCounter()
 <template>
   <div>
     <h2>Current color: {{ color }}</h2>
-    <input class="text-purple"/>
+    <input class="text-purple" />
     <div>
       Count: {{ counter }}
       <a-button type="primary" @click="counter++">

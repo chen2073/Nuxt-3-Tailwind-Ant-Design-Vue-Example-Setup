@@ -5,5 +5,5 @@
   <div>
     hello
   </div>
-  <Hello/>
+  <Hello />
 </template>
